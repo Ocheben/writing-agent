@@ -1,0 +1,9 @@
+{
+    "dependencies": [
+        "./backend"
+    ],
+    "graphs": {
+        "writing_agent": "./backend/studio_graph.py:graph"
+    },
+    "env": "./backend/.env"
+}

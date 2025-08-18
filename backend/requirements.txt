@@ -1,0 +1,23 @@
+# Core FastAPI and async dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+websockets>=11.0.3
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-multipart>=0.0.6
+
+# LangGraph and LangChain dependencies (latest compatible versions)
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-core>=0.3.0
+langsmith>=0.1.0
+
+# Additional utilities
+python-dotenv==1.0.0
+httpx==0.25.2
+tenacity==8.2.3
+
+# Development dependencies
+pytest==7.4.3
+pytest-asyncio==0.21.1 
